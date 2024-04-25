@@ -18,12 +18,12 @@
 ### *Инструкция по запускy веб-интерфейса:*
 
 * перейти в папку web
-* Загрузить и распаковать zip архив  с помощью команды `wget http://site.m1r0.webtm.ru:8080/s/ex6dKfgaEqLRJpg/download/models.zip`
-* установть poetry `curl -sSL https://install.python-poetry.org | python3 -`
-* `poetry install`
-* `unzip models.zip`
-* `poetry run python app.py`
+* Загрузить веса моделей и с помощью команды `gdown 1RluugEhN0CEZpVT9fPmh_BsPOd3uQ8kQ`
+* Разархивировать файл `models.zip` в текущую директорию
+* Выполнить команду `python app.py`
 
 ### *!UPD:*
 
 * в рамках разроботки данного проекта, был реализован ***[python module](https://github.com/seyoulax/ecg_worker)*** для работы с ЭКГ: ***обучением различных моделей***, ***препроцессингом данных***
+
+### *Спасибо за прочтение!*
