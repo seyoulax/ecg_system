@@ -60,7 +60,7 @@
                         <svg class="bi me-2" width="40" height="32">
                             <use xlink:href="#bootstrap"/>
                         </svg>
-                        <span class="fs-4">Cardio Screen</span>
+                        <span class="fs-4" >CardioScreen</span>
                     </a>
 
                     <ul class="nav nav-pills">
@@ -85,7 +85,7 @@
                     {% if i==image_id %}
 
                         <a href="{{ id }}i{{ i }}">
-                            <button class="btn btn-outline-primary rounded-circle p-3 lh-1 text-bg-primary" type="button">{{ i }}</button>
+                            <button class="btn btn-outline-primary rounded-circle p-3 lh-1 text-bg-primary" style="padding: 10px" type="button">{{ i }}</button>
                         </a>
                     {% else %}
                         <a href="{{ id }}i{{ i }}">
@@ -116,7 +116,7 @@
                 </div>
                 <h5>Предполагаемый диагноз: <span>{{ tasks[ns.index].llm_pred }}</span></h5>
                 <br>
-                <h5>Значение преобразования фурье:</h5>
+                <h5>Статистика по преобразованию фурье:</h5>
                 <h6>Среднее: {{ tasks[ns.index].fft[0] }}</h6>
                 <h6>Дисперсия: {{ tasks[ns.index].fft[1] }}</h6>
                 <h6>Стандартное отклонение: {{ tasks[ns.index].fft[2] }}</h6>
