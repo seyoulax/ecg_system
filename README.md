@@ -5,10 +5,10 @@
 
 <h3>Структура репозитория</h3>
 
-* [```process```](https://github.com/XXXM1R0XXX/final2/tree/b2c27b43e21dbc5ec4dfeceb6c71d734852672b9/process "перейти в папку") - папка с кодом препроцессинга данных
-* [```web```](https://github.com/XXXM1R0XXX/final2/tree/dcd84f38b0393c7fe9dec1a7e1064d3fa53e2e5a/web "перейти в папку") - папка с кодом веб-сайта
-* [```inference_example.ipynb```](https://github.com/XXXM1R0XXX/final2/blob/dcd84f38b0393c7fe9dec1a7e1064d3fa53e2e5a/inference_example.ipynb "перейти в файл") - пример инференса модели
-* [```training_example.ipynb```](https://github.com/XXXM1R0XXX/final2/blob/dcd84f38b0393c7fe9dec1a7e1064d3fa53e2e5a/training_example.ipynb "перейти в файл") - пример обучения модели
+* [```preprocessing```](https://github.com/seyoulax/ecg_system/tree/325bb2a64ff98cb64d41b4daa7d08b1a42964d23/preprocessing "перейти в папку") - папка с кодом препроцессинга данных
+* [```web```](https://github.com/seyoulax/ecg_system/tree/325bb2a64ff98cb64d41b4daa7d08b1a42964d23/web "перейти в папку") - папка с кодом веб-сайта
+* [```inference_example.ipynb```](https://github.com/seyoulax/ecg_system/blob/325bb2a64ff98cb64d41b4daa7d08b1a42964d23/inference_example.ipynb "перейти в файл") - пример инференса модели
+* [```training```](https://github.com/seyoulax/ecg_system/tree/325bb2a64ff98cb64d41b4daa7d08b1a42964d23/training "перейти в папку") - папка с кодом обучения моделей, представленных в работе
 
 <h3>Инструкция по запускy веб-интерфейса</h3>
 
